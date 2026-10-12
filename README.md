@@ -13,8 +13,6 @@ The official website and admin panel for **AgentBlazer Club**, SJEC — built du
 
 ## 🔗 Links
 
-## 🔗 Links
-
 **Live Site:**  
 [https://agentblazer-buildblazer-frontend.vercel.app/](https://agentblazer-buildblazer-frontend.vercel.app/)
 
