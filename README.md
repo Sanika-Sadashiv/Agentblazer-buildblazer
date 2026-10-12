@@ -13,11 +13,13 @@ The official website and admin panel for **AgentBlazer Club**, SJEC — built du
 
 ## 🔗 Links
 
+## 🔗 Links
+
 **Live Site:**  
-_Add your Vercel frontend URL here after deploying_
+[https://agentblazer-buildblazer-frontend.vercel.app/](https://agentblazer-buildblazer-frontend.vercel.app/)
 
 **Admin Panel:**  
-_Your frontend URL_`/admin/login`
+[https://agentblazer-buildblazer-frontend.vercel.app/admin/login](https://agentblazer-buildblazer-frontend.vercel.app/admin/login)
 
 
 ## About
@@ -86,8 +88,8 @@ Agentblazer-buildblazer/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/Sanika-Sadashiv/Agentblazer-buildblazer
+cd Agentblazer-buildblazer
 ```
 
 ### 2. Configure environment variables
@@ -120,7 +122,8 @@ VITE_API_URL=http://localhost:5000/api
 ```bash
 npm run install:all     # installs root, backend, and frontend dependencies
 npm run create-admin    # one-time: creates the admin login
-npm run dev              # runs backend (port 5000) and frontend (port 5173) together
+npm run seed            # one-time: loads events, team, guests and faculty into MongoDB
+npm run dev             # runs backend (port 5000) and frontend (port 5173) together
 ```
 
 - Site: [http://localhost:5173](http://localhost:5173)
@@ -136,6 +139,7 @@ npm run dev              # runs backend (port 5000) and frontend (port 5173) tog
 | `npm run dev:frontend`        | Runs only the frontend (Vite dev server)               |
 | `npm run create-admin`         | Creates the initial admin account                        |
 | `npm run build`                  | Builds the frontend for production                          |
+| `npm run seed`          | Loads events, team, guests and faculty into MongoDB |
 
 ## API Overview
 
